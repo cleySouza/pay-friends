@@ -1,11 +1,11 @@
-import React from 'react';
+import { Home } from './pages';
 import GlobalStyles from './theme/globalStyles';
 
-function App() {  
+function App() {
   return (
     <>
       <GlobalStyles />
-      <p>Hello World</p>
+      <Home />
     </>
   );
 }
