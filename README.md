@@ -35,7 +35,7 @@ A CRUD focused on financial management, developed to simplify expense tracking. 
 - Authentication: Login system with error handling, designed for single-user use.
 - State Management: Use of useContext to ensure data consistency throughout the application.
 - Styling: Application of Styled Components to create an elegant and responsive interface.
-- Forms: Integration with React Hook Form for efficient form handling.
+- Global State: Centralized state management using useContext to share and manage data across multiple components without the need for prop drilling.
 
 ## Technologies
 
@@ -54,7 +54,7 @@ Before starting 🏁, you need to have [Git](https://git-scm.com) and [Node](htt
 
 ```bash
 # Clone this project
-$ git clone https://github.com/joelmirmanoel/pay-friends.git
+$ git clone https://github.com/cleySouza/pay-friends.git
 
 # Access
 $ cd pay-friends
@@ -68,7 +68,7 @@ $ yarn start
 # The server will initialize in the <http://localhost:3000>
 ```
 
-Made with by <a href="https://github.com/joelmirmanoel" target="_blank">Joelmir Silva</a>
+Made with by <a href="https://github.com/cleySouza" target="_blank">Cleydson Souza</a>
 
 &#xa0;
 
